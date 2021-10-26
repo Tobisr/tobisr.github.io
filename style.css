@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+	background-image: url(pexels-karolina-grabowska-4210860.jpg);
+	background-size: cover;
+}
+
+.title {
+ 	
+ 	text-align: center;
+ 	font-display: 0px;
+ 	font-size: 60px;
+}
+
+.title-logo {
+	width: 250px;
+	height: 250px;
+	display: block;
+	margin: auto;
+
+}
+
+.title-description {
+ 	display: inline-block;
+ 	text-align: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card	{
+	background: whitesmoke;
+	width: 270px;
+	margin: 10px;
+	border-radius: 15px;
+
+}
+
+.card-image {
+	background: aqua;
+	height: 360px;
+	margin-bottom: 15px;
+	border-radius: 15px 15px 0 0 ;
+}
+
+.card-1 {
+	background-image: url(camisa.jpeg);
+	background-size: cover;
+}
+
+.card-2 {
+	background-image: url(pantaloon.jpeg);
+	background-size: cover;
+}
+
+.card-3 {
+	background-image: url(remeraE.jpeg);
+	background-size: cover;
+}
+
+.card-4 {
+	background-image: url(chalecoE.jpeg);
+	background-size: cover;
+}
+.card-5 {
+	background-image: url(botines.jpeg);
+	background-size: cover;
+}
+
+.card h2 {
+	padding: 10px;
+}
+
+
+.card p {
+	padding: 10px;
+}
+
+.card a {
+	background-color: #CF3333;
+	color: black;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 15px 20px;
+	font-weight: 700;
+	font-size: 20;
+
+
+}
+
+.card:hover {
+	background: #671F1F;
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 0.50s ease;
+}
+
+.card a:hover {
+	transition: scale(1.02);
+	border-radius: 25px;
+	transition: all 0.60s ease;
+
+}
